@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
-import Breadcrumb from "../../Components/Breadcrumb/Breadcrumb.component";
+import Breadcrumb from "../../components/Breadcrumb/Breadcrumb.component";
 import { useParams } from "react-router-dom";
 import { readDeck } from "../../utils/api";
-import Text from "../../Components/Text";
+import Text from "../../components/Text";
 import NoCardsToStudy from "./components/NoCardsToStudy.component";
 import CurrentCard from "./components/CurrentCard.component";
 

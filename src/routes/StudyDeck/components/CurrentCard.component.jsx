@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import { Card, CardBody } from "../../../Components/Card";
-import Text from "../../../Components/Text";
-import Button from "../../../Components/Button/Button.component";
+import { Card, CardBody } from "../../../components/Card";
+import Text from "../../../components/Text";
+import Button from "../../../components/Button/Button.component";
 import { useHistory } from "react-router-dom";
 
 const CurrentCard = ({ cards }) => {

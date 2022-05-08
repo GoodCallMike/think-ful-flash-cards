@@ -1,6 +1,6 @@
 import React from "react";
-import { Card, CardBody } from "../../../../Components/Card";
-import Text from "../../../../Components/Text";
+import { Card, CardBody } from "../../../../components/Card";
+import Text from "../../../../components/Text";
 import DeckCardActions from "./DeckCardActions.component";
 import DeckCardHeader from "./DeckCardHeader.component";
 

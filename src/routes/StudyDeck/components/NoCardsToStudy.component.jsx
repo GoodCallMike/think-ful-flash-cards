@@ -1,9 +1,9 @@
 import React from "react";
-import Text from "../../../Components/Text";
-import Button from "../../../Components/Button/Button.component";
+import Text from "../../../components/Text";
+import Button from "../../../components/Button/Button.component";
 import { FaPlus } from "react-icons/fa";
 import { useHistory } from "react-router-dom";
-import Breadcrumb from "../../../Components/Breadcrumb/Breadcrumb.component";
+import Breadcrumb from "../../../components/Breadcrumb/Breadcrumb.component";
 
 const NoCardsToStudy = ({ deckId, numOfCards }) => {
   const history = useHistory();

@@ -1,9 +1,9 @@
 import React, { useEffect } from "react";
-import Text from "../../Components/Text";
-import Breadcrumb from "../../Components/Breadcrumb/Breadcrumb.component";
+import Text from "../../components/Text";
+import Breadcrumb from "../../components/Breadcrumb/Breadcrumb.component";
 import { useHistory, useParams } from "react-router-dom";
 import { createCard, readDeck } from "../../utils/api";
-import Form from "../../Components/Form/Form.component";
+import Form from "../../components/Form/Form.component";
 import formInputs from "../../configs/cardInputs.config";
 
 const NewCard = () => {

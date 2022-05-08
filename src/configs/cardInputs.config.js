@@ -1,4 +1,4 @@
-import FormInput from "../Components/FormInput/FormInput.component";
+import FormInput from "../components/FormInput/FormInput.component";
 
 export default [
   {

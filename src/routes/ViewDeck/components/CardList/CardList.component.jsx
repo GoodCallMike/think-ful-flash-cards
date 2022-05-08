@@ -1,7 +1,7 @@
 import React from "react";
-import ListGroup from "../../../../Components/ListGroup/ListGroup.component";
-import Text from "../../../../Components/Text";
-import { Card } from "../../../../Components/Card";
+import ListGroup from "../../../../components/ListGroup/ListGroup.component";
+import Text from "../../../../components/Text";
+import { Card } from "../../../../components/Card";
 import CardListItem from "./CardListItem.component";
 
 const CardList = ({ cards, onDelete }) => {

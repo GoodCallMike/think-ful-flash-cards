@@ -1,6 +1,5 @@
 import React from "react";
-import Text from "../../Components/Text";
-import Breadcrumb from "../../Components/Breadcrumb/Breadcrumb.component";
+import Breadcrumb from "../../components/Breadcrumb/Breadcrumb.component";
 
 const PageNotFound = () => (
   <>

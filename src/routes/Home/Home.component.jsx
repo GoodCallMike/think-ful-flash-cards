@@ -1,5 +1,5 @@
 import React from "react";
-import Button from "../../Components/Button/Button.component";
+import Button from "../../components/Button/Button.component";
 import { FaPlus } from "react-icons/fa";
 import DeckList from "./components/DeckList/DeckList.component";
 import { useHistory } from "react-router-dom";

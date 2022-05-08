@@ -1,5 +1,5 @@
 import React from "react";
-import Button from "../../../../Components/Button/Button.component";
+import Button from "../../../../components/Button/Button.component";
 import { FaBook, FaPen, FaPlus, FaTrashAlt } from "react-icons/fa";
 import { useHistory } from "react-router-dom";
 import { deleteDeck } from "../../../../utils/api";

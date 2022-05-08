@@ -1,5 +1,5 @@
-import FormInput from "../Components/FormInput/FormInput.component";
-import TextArea from "../Components/TextArea/TextArea.component";
+import FormInput from "../components/FormInput/FormInput.component";
+import TextArea from "../components/TextArea/TextArea.component";
 
 export default [
   {

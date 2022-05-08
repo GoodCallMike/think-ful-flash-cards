@@ -1,6 +1,6 @@
 import React from "react";
-import Text from "../../../../Components/Text";
-import { Card, CardBody, CardHeader } from "../../../../Components/Card";
+import Text from "../../../../components/Text";
+import { Card, CardBody, CardHeader } from "../../../../components/Card";
 import ViewDeckCardActions from "./ViewDeckCardActions.component";
 
 const ViewDeckCard = ({ description, id, name }) => {

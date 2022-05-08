@@ -1,6 +1,6 @@
 import React from "react";
-import { CardHeader } from "../../../../Components/Card";
-import Text from "../../../../Components/Text";
+import { CardHeader } from "../../../../components/Card";
+import Text from "../../../../components/Text";
 
 const DeckCardHeader = ({ name, numOfCards }) => {
   return (

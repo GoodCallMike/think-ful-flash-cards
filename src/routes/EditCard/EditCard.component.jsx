@@ -1,10 +1,10 @@
 import React, { useEffect } from "react";
-import Breadcrumb from "../../Components/Breadcrumb/Breadcrumb.component";
-import Text from "../../Components/Text";
+import Breadcrumb from "../../components/Breadcrumb/Breadcrumb.component";
+import Text from "../../components/Text";
 import { useHistory, useParams } from "react-router-dom";
 import { readCard, readDeck, updateCard } from "../../utils/api";
 import formInputs from "../../configs/cardInputs.config";
-import Form from "../../Components/Form/Form.component";
+import Form from "../../components/Form/Form.component";
 
 const EditCard = () => {
   const [card, setCard] = React.useState({});

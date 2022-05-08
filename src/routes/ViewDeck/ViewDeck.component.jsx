@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import { useParams } from "react-router-dom";
 import { deleteCard, readDeck } from "../../utils/api";
-import Breadcrumb from "../../Components/Breadcrumb/Breadcrumb.component";
+import Breadcrumb from "../../components/Breadcrumb/Breadcrumb.component";
 import ViewDeckCard from "./components/ViewDeckCard/ViewDeckCard.component";
 import CardList from "./components/CardList/CardList.component";
 

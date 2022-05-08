@@ -1,9 +1,9 @@
 import React from "react";
-import Text from "../../Components/Text";
-import Breadcrumb from "../../Components/Breadcrumb/Breadcrumb.component";
+import Text from "../../components/Text";
+import Breadcrumb from "../../components/Breadcrumb/Breadcrumb.component";
 import { createDeck } from "../../utils/api";
 import { useHistory } from "react-router-dom";
-import Form from "../../Components/Form/Form.component";
+import Form from "../../components/Form/Form.component";
 import formInputs from "../../configs/deckInputs.config";
 
 const NewDeck = () => {

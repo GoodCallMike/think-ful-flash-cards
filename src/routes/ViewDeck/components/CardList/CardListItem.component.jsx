@@ -1,7 +1,7 @@
 import React from "react";
-import Text from "../../../../Components/Text";
-import ListGroupItem from "../../../../Components/ListGroup/ListGroupItem.component";
-import Button from "../../../../Components/Button/Button.component";
+import Text from "../../../../components/Text";
+import ListGroupItem from "../../../../components/ListGroup/ListGroupItem.component";
+import Button from "../../../../components/Button/Button.component";
 import { FaPen, FaTrashAlt } from "react-icons/fa";
 import { useHistory } from "react-router-dom";
 

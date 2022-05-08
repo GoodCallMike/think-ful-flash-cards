@@ -1,8 +1,7 @@
 import React from "react";
-import Button from "../../../../Components/Button/Button.component";
+import Button from "../../../../components/Button/Button.component";
 import { FaBook, FaRegEye, FaTrashAlt } from "react-icons/fa";
 import { useHistory } from "react-router-dom";
-import { deleteDeck } from "../../../../utils/api";
 
 const DeckCardActions = ({ id, onDelete }) => {
   const history = useHistory();
